@@ -8,7 +8,7 @@ the model is saved.
 """
 from os import environ
 
-import ohtm.mallet_wrapper.corpora as corpora
+import ohtm_pipeline.ohtm.mallet_wrapper.corpora as corpora
 from ohtm_pipeline.ohtm.mallet_wrapper.ldamallet import LdaMallet
 from ohtm_pipeline.ohtm.mallet_wrapper.coherencemodel import CoherenceModel
 import json
