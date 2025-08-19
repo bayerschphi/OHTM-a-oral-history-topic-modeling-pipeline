@@ -13,8 +13,8 @@ from itertools import chain
 import logging
 import math
 
-from ohtm.mallet_wrapper import utils
-from ohtm.mallet_wrapper.utils import deprecated
+from ohtm_pipeline.ohtm.mallet_wrapper import utils
+from ohtm_pipeline.ohtm.mallet_wrapper.utils import deprecated
 
 import numpy as np
 import scipy.sparse
@@ -1101,7 +1101,7 @@ def jaccard_distance(set1, set2):
 
 try:
     # try to load fast, cythonized code if possible
-    from ohtm.mallet_wrapper.matutils import logsumexp, mean_absolute_difference, dirichlet_expectation
+    from ohtm_pipeline.ohtm.mallet_wrapper.matutils import logsumexp, mean_absolute_difference, dirichlet_expectation
 
 except ImportError:
     def logsumexp(x):

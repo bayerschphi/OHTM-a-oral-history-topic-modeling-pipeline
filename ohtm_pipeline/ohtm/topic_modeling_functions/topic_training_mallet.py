@@ -9,11 +9,11 @@ the model is saved.
 from os import environ
 
 import ohtm.mallet_wrapper.corpora as corpora
-from ohtm.mallet_wrapper.ldamallet import LdaMallet
-from ohtm.mallet_wrapper.coherencemodel import CoherenceModel
+from ohtm_pipeline.ohtm.mallet_wrapper.ldamallet import LdaMallet
+from ohtm_pipeline.ohtm.mallet_wrapper.coherencemodel import CoherenceModel
 import json
 import os
-from ohtm.basic_functions.convert_ohtm_file import convert_ohtm_file
+from ohtm_pipeline.ohtm.basic_functions.convert_ohtm_file import convert_ohtm_file
 
 
 

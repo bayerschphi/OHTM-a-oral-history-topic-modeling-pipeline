@@ -13,7 +13,7 @@ First set the required paths.
 """
 
 import os
-from ohtm.pipeline import ohtm_pipeline_function
+from ohtm_pipeline.ohtm.pipeline import ohtm_pipeline_function
 
 ''' Path Settings: '''
 # Path to your mallet folder.
