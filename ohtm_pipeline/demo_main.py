@@ -19,7 +19,7 @@ This demo is used to test, if the code runs proper and is linked to the demo fol
 - Topic modeling is not able, because you need to install mallet first.
 """
 
-from ohtm_pipeline.pipeline_function.pipeline import ohtm_pipeline_function
+from ohtm_pipeline.ohtm.pipeline import ohtm_pipeline_function
 import os
 
 ''' Path Settings: '''
