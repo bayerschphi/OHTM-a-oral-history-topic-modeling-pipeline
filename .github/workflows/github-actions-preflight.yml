@@ -26,6 +26,8 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: '*.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}        
       - name: Run shell cmd
         run: echo "https://github.com/${{github.repository}}/commit/${{github.sha}}/checks/${{github.run_id}}"
 
