@@ -2,9 +2,22 @@ Metadata-Version: 2.4
 Name: ohtm_pipeline
 Version: 0.8.0
 Summary: Kurzbeschreibung des Projekts
-Author-email: Philipp Bayerschmidt <philipp.bayerschmidt@fernuni-hagen.de>
-Requires-Python: >=3.8
+Home-page: https://github.com/bayerschphi/ohtm_pipeline
+Author: Philipp Bayerschmidt
+Author-email: philipp.bayerschmidt@fernuni-hagen.de
 Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: plotly
+Requires-Dist: scikit-learn
+Requires-Dist: nltk
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
 
 # OHTM Pipeline - Version 0.8
 (Oral History Topic Modeling Pipeline)
