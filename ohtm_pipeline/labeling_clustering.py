@@ -10,7 +10,7 @@ and set the wantes options and run the script.
 """
 
 import os
-from ohtm_pipeline.pipeline_function.upgrade_and_labeling import ohtm_label_upgrade
+from ohtm_pipeline.ohtm_pipeline.pipeline_function.upgrade_and_labeling import ohtm_label_upgrade
 
 ''' Path Settings: '''
 

@@ -8,8 +8,8 @@
 
 import logging
 
-from ohtm_pipeline.mallet_wrapper import matutils
-from ohtm_pipeline.mallet_wrapper.corpora import IndexedCorpus
+from ohtm_pipeline.ohtm_pipeline.mallet_wrapper import matutils
+from ohtm_pipeline.ohtm_pipeline.mallet_wrapper.corpora import IndexedCorpus
 
 
 logger = logging.getLogger(__name__)

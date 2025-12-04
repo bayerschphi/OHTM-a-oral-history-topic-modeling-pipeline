@@ -431,8 +431,8 @@ The pipeline can be used as a library by importing the provided functions direct
 Usage example (import and call):
 
 ```python
-from ohtm_pipeline.pipeline_function.pipeline import ohtm_pipeline_function
-from ohtm_pipeline.topic_evaluation.bar_graph import bar_graph_corpus
+from ohtm_pipeline.ohtm_pipeline.pipeline_function.pipeline import ohtm_pipeline_function
+from ohtm_pipeline.ohtm_pipeline.topic_evaluation.bar_graph import bar_graph_corpus
 
 # Run pipeline programmatically (example)
 ohtm_pipeline_function(output_folder='C:/work', source_folder=['archive1'], source_path='C:/data', topics=10)

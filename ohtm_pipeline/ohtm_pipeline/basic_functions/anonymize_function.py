@@ -1,6 +1,6 @@
 '''Function to anonymze the ohtm_file from all relevant text in raw, cleaned and speaker'''
 
-from ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
+from ohtm_pipeline.ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
 import json
 
 def anonymize_function(ohtm_file, exceptions):

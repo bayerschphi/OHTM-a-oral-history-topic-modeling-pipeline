@@ -9,8 +9,8 @@ Links are only available for interviews from oral-history.digital
 
 
 import copy
-from ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
-from ohtm_pipeline.basic_functions.create_link_to_ohd import create_link
+from ohtm_pipeline.ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
+from ohtm_pipeline.ohtm_pipeline.basic_functions.create_link_to_ohd import create_link
 
 def print_chunk(ohtm_file, interview_id: str = "", chunk_number: int = 0, show_links: bool = False):
     ohtm_file = convert_ohtm_file(ohtm_file)

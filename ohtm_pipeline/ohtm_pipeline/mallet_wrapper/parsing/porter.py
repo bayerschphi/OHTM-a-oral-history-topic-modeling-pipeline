@@ -12,7 +12,7 @@ Examples
 
 .. sourcecode:: pycon
 
-    >>> from ohtm_pipeline.mallet_wrapper.parsing.porter import PorterStemmer
+    >>> from ohtm_pipeline.ohtm_pipeline.mallet_wrapper.parsing.porter import PorterStemmer
     >>>
     >>> p = PorterStemmer()
     >>> p.stem("apple")
@@ -64,7 +64,7 @@ class PorterStemmer:
         --------
         .. sourcecode:: pycon
 
-            >>> from ohtm_pipeline.mallet_wrapper.parsing.porter import PorterStemmer
+            >>> from ohtm_pipeline.ohtm_pipeline.mallet_wrapper.parsing.porter import PorterStemmer
             >>> p = PorterStemmer()
             >>> p.b = "hi"
             >>> p._cons(1)

@@ -1,7 +1,7 @@
 from builtins import print
 import pandas as pd
 import plotly_express as px
-from ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
+from ohtm_pipeline.ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
 import numpy as np
 import ast
 

@@ -9,7 +9,7 @@
 import itertools
 import logging
 
-from ohtm_pipeline.mallet_wrapper.topic_coherence.text_analysis import (CorpusAccumulator, WordOccurrenceAccumulator, ParallelWordOccurrenceAccumulator, WordVectorsAccumulator)
+from ohtm_pipeline.ohtm_pipeline.mallet_wrapper.topic_coherence.text_analysis import (CorpusAccumulator, WordOccurrenceAccumulator, ParallelWordOccurrenceAccumulator, WordVectorsAccumulator)
 
 
 

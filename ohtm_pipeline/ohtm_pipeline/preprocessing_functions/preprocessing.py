@@ -6,11 +6,11 @@ This code preprocesses your interviews with the different settings.
 
 """
 
-from ohtm_pipeline.preprocessing_functions.stopwords import (remove_stopwords_by_list,
+from ohtm_pipeline.ohtm_pipeline.preprocessing_functions.stopwords import (remove_stopwords_by_list,
                                                                   remove_particles, remove_stopwords_by_threshold)
-from ohtm_pipeline.preprocessing_functions.preprocess_outstr import preprocess_outstr
-from ohtm_pipeline.preprocessing_functions.lemmatization import lemmatization
-from ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
+from ohtm_pipeline.ohtm_pipeline.preprocessing_functions.preprocess_outstr import preprocess_outstr
+from ohtm_pipeline.ohtm_pipeline.preprocessing_functions.lemmatization import lemmatization
+from ohtm_pipeline.ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
 import copy
 import json
 import spacy

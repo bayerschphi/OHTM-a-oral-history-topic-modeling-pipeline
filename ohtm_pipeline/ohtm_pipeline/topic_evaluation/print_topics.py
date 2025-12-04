@@ -1,6 +1,6 @@
 import json
 import os
-from ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
+from ohtm_pipeline.ohtm_pipeline.basic_functions.convert_ohtm_file import convert_ohtm_file
 
 
 def print_topic_words_function(ohtm_file, number_of_words: int = 50, topic_words_with_weight:bool = False):
